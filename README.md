@@ -48,3 +48,6 @@ The bot uses `pyautogui` to simulate mouse clicks. It executes the queued moves 
 
 ## ⚠️ Disclaimer
 This project is for educational purposes only. Using automation tools on gaming platforms may violate their terms of service. Use responsibly.
+
+- **Computational Overhead**: The current pixel-matching logic for multi-hit segments is CPU-intensive, which can occasionally cause synchronization lag during high-speed gameplay.
+- **Complex Obstacle Sequences**: The bot may experience reduced reliability when multiple diverse obstacles appear in rapid succession, likely due to overlapping detection regions or timing variances in the game engine.
